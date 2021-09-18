@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(246, 239, 233);
+}
+
+#theme{
+    position: fixed;
+    border-bottom: rgba(0,0,0,0.3);
+    background-color: rgb(211, 198, 187);
+    border: 2px solid #aaa;
+    border-radius: 18px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+#weather{
+    color: rgb(82, 84, 85);
+    background-color: rgb(211, 198, 187);
+    border-radius: 75px;
+    box-shadow: 0px 4px 10px rgba(49, 46, 46, 0.3);
+    border: 1px solid rgb(175, 175, 175);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    padding: 1em 0em 0em 1em;
+}
+
+#product, #productImage{
+    margin: 5em 20em;
+    background-color: rgb(211, 198, 187);
+}
+
+#product{
+    box-shadow: 8px 10px 8px 10px rgba(0,0,0,0.3);
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+  
+.color {
+    height: 36px;
+    width: 36px;
+    margin-left: 2em;
+    border-radius: 18px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    border: 2px solid #aaa;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.asesorButton{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    align-content: center;
+    padding: 1em;
+    border-radius: 75px;
+    box-shadow: 0px 4px 10px rgba(49, 46, 46, 0.3);
+    border: 2px solid #aaa;
+    font-size: 120%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 120%;
+    margin: 4em 0em;
+}
+
+.masInfo{
+    margin-left: 12%;
+    margin-bottom: 5%;
+}
+
+#h1{
+    margin-bottom: 2%;
+}
+
+#p{
+    font-size: 120%;
+}
+
+footer{
+    padding: 3em 0em 3em 0em;
+    color: honeydew;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #252424;
+}
